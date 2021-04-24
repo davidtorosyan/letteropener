@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2021-04-23
+
 ### Fixed
 
 - [BUG #1](https://github.com/davidtorosyan/letteropener/issues/1):
@@ -20,5 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release!
 
-[unreleased]: https://github.com/davidtorosyan/letteropener/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/davidtorosyan/letteropener/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/davidtorosyan/letteropener/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/davidtorosyan/letteropener/releases/tag/v1.0.0

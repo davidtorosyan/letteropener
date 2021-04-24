@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         letteropener
 // @namespace    https://github.com/davidtorosyan/letteropener
-// @version      1.0.0
+// @version      1.0.1
 // @description  improve love letters on boardgamearena.com
 // @author       David Torosyan
 // @match        https://boardgamearena.com/*/loveletter*
 // @match        https://boardgamearena.com/tutorial?*game=loveletter&*
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
 // @require      https://github.com/davidtorosyan/command.games/raw/monkeymaster-v2.1.0/src/monkeymaster/monkeymaster.js
-// @require      https://github.com/davidtorosyan/letteropener/raw/v1.0.0/src/modules/common.js
-// @require      https://github.com/davidtorosyan/letteropener/raw/v1.0.0/src/modules/monitor.js
-// @require      https://github.com/davidtorosyan/letteropener/raw/v1.0.0/src/modules/main.js
+// @require      https://github.com/davidtorosyan/letteropener/raw/v1.0.1/src/modules/common.js
+// @require      https://github.com/davidtorosyan/letteropener/raw/v1.0.1/src/modules/monitor.js
+// @require      https://github.com/davidtorosyan/letteropener/raw/v1.0.1/src/modules/main.js
 // ==/UserScript==
 
 /*

@@ -33,7 +33,7 @@ This extension supports both the base game and the expansion.
 
 ## Contributing
 
-We welcome pull requests! Also free to leave an issue for a bug you've seen or feature you'd like.
+We welcome pull requests! Also feel free to leave an issue for a bug you've seen or feature you'd like.
 
 ### Local development
 
