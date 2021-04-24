@@ -4,7 +4,7 @@
 // @author       David Torosyan
 // ==/Module==
 
-/* global $, monkeymaster, lv */
+/* global $, monkeymaster, lv, GM_info */
 
 lv.monitor = {};
 
@@ -21,11 +21,13 @@ lv.monitor = {};
   function setup () {
     console.log('Setting up monitor.')
     setupStyle()
+    addVersion()
     monitorDiscard()
   }
   lib.setup = setup
 
   // constants
+  const repoUrl = 'https://github.com/davidtorosyan/letteropener'
   const discardSelector = '.stockitem[id^=discardcontent]'
   const textAttribute = 'data-lv_text'
   const usedClass = 'lv_used'
@@ -51,6 +53,14 @@ lv.monitor = {};
             }
         `)
       .appendTo('head')
+  }
+
+  function addVersion () {
+    const version = `v${GM_info.script.version}`
+    console.log(`Running version ${version}`)
+    const link = `<a target="_blank" href="${repoUrl}">${version}</a>`
+    const $div = $(`<div style="text-align: right; margin-right: 10px">${link}</span>`)
+    $('#explanation_card').append($div)
   }
 
   function monitorDiscard () {
