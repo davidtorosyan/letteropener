@@ -228,11 +228,8 @@ lv.common = {};
     }
 
     $.fn.onExists = function (selector, callback, options = {}) {
-      monkeymaster.onExists(selector, callback, {
-        target: this[0],
-        delayMs: options.delayMs,
-        once: options.once
-      })
+      options.target = this[0]
+      monkeymaster.onExists(selector, callback, options)
     }
   })(jQuery)
 })()

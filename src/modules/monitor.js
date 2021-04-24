@@ -26,7 +26,7 @@ lv.monitor = {};
   lib.setup = setup
 
   // constants
-  const discardSelector = '.discardcontent .stockitem'
+  const discardSelector = '.stockitem[id^=discardcontent]'
   const textAttribute = 'data-lv_text'
   const usedClass = 'lv_used'
   const doneClass = 'lv_done'
@@ -58,6 +58,8 @@ lv.monitor = {};
     $.onExists(discardSelector, () => {
       console.log('Detected change in discards.')
       processDiscards()
+    }, {
+      onRemoval: true
     })
   }
 

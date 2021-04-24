@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- [BUG #1](https://github.com/davidtorosyan/letteropener/issues/1):
+  Update list when new game starts
 - [BUG #3](https://github.com/davidtorosyan/letteropener/issues/3):
   Fix text overflow on Firefox
 
