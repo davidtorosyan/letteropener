@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- [BUG #3](https://github.com/davidtorosyan/letteropener/issues/3):
+  Fix text overflow on Firefox
+
 ## [1.0.0] - 2021-04-20
 
 ### Added

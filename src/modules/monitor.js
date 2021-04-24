@@ -41,6 +41,14 @@ lv.monitor = {};
             .${doneClass} {
                 color: red;
             }
+            @supports (-moz-appearance:none) {
+              @media only screen and (max-width: 1160px) {
+                #explanation_card,
+                #explanation_card2 {
+                line-height: 1;
+                }
+              }
+            }
         `)
       .appendTo('head')
   }
