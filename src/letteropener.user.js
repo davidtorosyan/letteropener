@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         letteropener.track
 // @namespace    https://github.com/davidtorosyan/letteropener
-// @version      1.1.1
+// @version      1.1.2
 // @description  improve love letters on boardgamearena.com
 // @author       David Torosyan
 // @match        https://boardgamearena.com/*/loveletter*
@@ -11,7 +11,7 @@
 // @require      https://github.com/davidtorosyan/letteropener/raw/v1.1.1/src/modules/common.js
 // @require      https://github.com/davidtorosyan/letteropener/raw/v1.1.1/src/modules/monitor.js
 // @require      https://github.com/davidtorosyan/letteropener/raw/v1.1.1/src/modules/main.js
-// @resource     tracking https://www.google-analytics.com/collect?v=1&tid=UA-123456-1&cid=5555&t=download
+// @resource     tracking https://www.google-analytics.com/collect?v=1&tid=UA-123456-1&cid=5555&t=download&sv=1.1.2
 // @grant        GM_info
 // ==/UserScript==
 
