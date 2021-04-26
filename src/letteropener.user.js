@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         letteropener
+// @name         letteropener.track
 // @namespace    https://github.com/davidtorosyan/letteropener
 // @version      1.1.1
 // @description  improve love letters on boardgamearena.com
