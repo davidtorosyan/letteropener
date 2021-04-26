@@ -51,6 +51,10 @@ lv.monitor = {};
                 }
               }
             }
+            #explanation_card,
+            #explanation_card2 {
+              font-family: Arial, sans-serif;
+            }
         `)
       .appendTo('head')
   }
