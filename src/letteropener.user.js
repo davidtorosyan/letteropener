@@ -11,6 +11,7 @@
 // @require      https://github.com/davidtorosyan/letteropener/raw/v1.1.1/src/modules/common.js
 // @require      https://github.com/davidtorosyan/letteropener/raw/v1.1.1/src/modules/monitor.js
 // @require      https://github.com/davidtorosyan/letteropener/raw/v1.1.1/src/modules/main.js
+// @resource     tracking https://www.google-analytics.com/collect?v=1&tid=UA-123456-1&cid=5555&t=download
 // @grant        GM_info
 // ==/UserScript==
 
